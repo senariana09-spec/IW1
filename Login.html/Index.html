@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homem-Aranha!!!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: red;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .nav {
+      padding: 15px 0;
+    }
+
+    .nav a {
+      color: red;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.2em;
+    }
+
+    h1 {
+      color: red;
+      margin: 20px 0 10px 0;
+      font-size: 2.5em;
+    }
+
+    .main-image {
+      width: 95%;
+      max-width: 1250px;
+      margin: 0 auto;
+      border: 4px solid red;
+    }
+
+    .main-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    h2 {
+      color: red;
+      margin: 25px 0 15px 0;
+      font-size: 1.8em;
+    }
+
+    /* Container das 3 imagens abaixo */
+    .thumbnails {
+      display: flex;
+      justify-content: center;
+      gap: 45px;
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto 40px auto;
+    }
+
+    .thumb {
+      width: 26%;
+      max-width: 280px;
+      border: 3px solid red;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+      transition: transform 0.3s;
+    }
+
+    .thumb:hover {
+      transform: scale(1.05);
+    }
+
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">Sobre</a>
+  </div>
+
+  <h1>Homem-Aranha!!!</h1>
+
+  <div class="main-image">
+    <img src="https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2021/09/09180323/spider-man-remastered-new-peter-parker-ps5-details-f_s3xn.jpg?fit=2048%2C1152&ssl=1" alt="Homem-Aranha principal">
+  </div>
+
+  <h2>Homem-Aracnídeo</h2>
+
+  <div class="thumbnails">
+    <div class="thumb">
+      <img src="URL_DA_IMAGEM_1" alt="Spider-Man 1">
+    </div>
+    <div class="thumb">
+      <img src="URL_DA_IMAGEM_2" alt="Spider-Man 2">
+    </div>
+    <div class="thumb">
+      <img src="URL_DA_IMAGEM_3" alt="Spider-Man 3">
+    </div>
+  </div>
+
+</body>
+</html>

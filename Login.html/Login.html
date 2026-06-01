@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container-form {
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .home-link {
+            color: #ffffff;
+            text-decoration: underline;
+            font-size: 18px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .form-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        
+        .box-cinza {
+            background-color: #aaaaaa;
+            border-radius: 15px;
+            padding: 30px 25px;
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+            color: #000000;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 20px;
+            border: none;
+            background-color: #e0e0e0;
+            outline: none;
+            font-size: 16px;
+            cursor: not-allowed;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 25px;
+        }
+
+        .btn {
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            padding: 8px 25px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-form">
+        <a href="spider_home.html" class="home-link">Home</a>
+        <h2 class="form-title">Fazer Login</h2>
+        
+        <div class="box-cinza">
+            <div class="form-group">
+                <label>Login</label>
+                <input type="text" disabled>
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" disabled>
+            </div>
+            <div class="btn-group">
+                <button class="btn">Cadastrar</button>
+                <button class="btn">Logar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
